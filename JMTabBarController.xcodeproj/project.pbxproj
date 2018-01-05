@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB4BB6CF1FFE0E3C009CA46C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4BB6CE1FFE0E3C009CA46C /* ViewController.m */; };
+		CB5DD08A1FF249BD0042B971 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DD0891FF249BD0042B971 /* AppDelegate.m */; };
+		CB5DD0901FF249BD0042B971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5DD08E1FF249BD0042B971 /* Main.storyboard */; };
+		CB5DD0921FF249BD0042B971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5DD0911FF249BD0042B971 /* Assets.xcassets */; };
+		CB5DD0951FF249BD0042B971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5DD0931FF249BD0042B971 /* LaunchScreen.storyboard */; };
+		CB5DD0981FF249BD0042B971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DD0971FF249BD0042B971 /* main.m */; };
+		CB5DD0A21FF249BD0042B971 /* JMTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DD0A11FF249BD0042B971 /* JMTabBarControllerTests.m */; };
+		CB5DD0AD1FF249BD0042B971 /* JMTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DD0AC1FF249BD0042B971 /* JMTabBarControllerUITests.m */; };
+		CB5DD0BD1FF24C220042B971 /* JMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5DD0BC1FF24C220042B971 /* JMTabBarController.m */; };
+		CB82B0CF1FFCDD4F00D2625F /* CAAnimation+JMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB82B0CE1FFCDD4F00D2625F /* CAAnimation+JMAnimation.m */; };
+		CB9CD6A51FF399D700702175 /* JMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CD6A41FF399D700702175 /* JMTabBar.m */; };
+		CB9CD6A81FF3A36300702175 /* UIColor+JM.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CD6A71FF3A36300702175 /* UIColor+JM.m */; };
+		CBC1FB071FFBDD4200C61D98 /* JMBadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1FB061FFBDD4200C61D98 /* JMBadgeValue.m */; };
+		CBE937EE1FF4D4A700057D6E /* JMTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE937ED1FF4D4A700057D6E /* JMTabBarButton.m */; };
+		CBE937F11FF4E94500057D6E /* UIView+JM.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE937EF1FF4E94400057D6E /* UIView+JM.m */; };
+		CBF1CE561FFB3E5600F295AF /* JMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CE551FFB3E5600F295AF /* JMConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB5DD09E1FF249BD0042B971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5DD07D1FF249BD0042B971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5DD0841FF249BD0042B971;
+			remoteInfo = JMTabBarController;
+		};
+		CB5DD0A91FF249BD0042B971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5DD07D1FF249BD0042B971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5DD0841FF249BD0042B971;
+			remoteInfo = JMTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB4BB6CD1FFE0E3C009CA46C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB4BB6CE1FFE0E3C009CA46C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB5DD0851FF249BD0042B971 /* JMTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5DD0881FF249BD0042B971 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB5DD0891FF249BD0042B971 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB5DD08F1FF249BD0042B971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB5DD0911FF249BD0042B971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB5DD0941FF249BD0042B971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB5DD0961FF249BD0042B971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5DD0971FF249BD0042B971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB5DD09D1FF249BD0042B971 /* JMTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5DD0A11FF249BD0042B971 /* JMTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTabBarControllerTests.m; sourceTree = "<group>"; };
+		CB5DD0A31FF249BD0042B971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5DD0A81FF249BD0042B971 /* JMTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5DD0AC1FF249BD0042B971 /* JMTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTabBarControllerUITests.m; sourceTree = "<group>"; };
+		CB5DD0AE1FF249BD0042B971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5DD0BB1FF24C220042B971 /* JMTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMTabBarController.h; sourceTree = "<group>"; };
+		CB5DD0BC1FF24C220042B971 /* JMTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTabBarController.m; sourceTree = "<group>"; };
+		CB82B0CD1FFCDD4F00D2625F /* CAAnimation+JMAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+JMAnimation.h"; sourceTree = "<group>"; };
+		CB82B0CE1FFCDD4F00D2625F /* CAAnimation+JMAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+JMAnimation.m"; sourceTree = "<group>"; };
+		CB9CD6A31FF399D700702175 /* JMTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMTabBar.h; sourceTree = "<group>"; };
+		CB9CD6A41FF399D700702175 /* JMTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTabBar.m; sourceTree = "<group>"; };
+		CB9CD6A61FF3A36300702175 /* UIColor+JM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JM.h"; sourceTree = "<group>"; };
+		CB9CD6A71FF3A36300702175 /* UIColor+JM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JM.m"; sourceTree = "<group>"; };
+		CBC1FB051FFBDD4200C61D98 /* JMBadgeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMBadgeValue.h; sourceTree = "<group>"; };
+		CBC1FB061FFBDD4200C61D98 /* JMBadgeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMBadgeValue.m; sourceTree = "<group>"; };
+		CBE937EC1FF4D4A700057D6E /* JMTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMTabBarButton.h; sourceTree = "<group>"; };
+		CBE937ED1FF4D4A700057D6E /* JMTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTabBarButton.m; sourceTree = "<group>"; };
+		CBE937EF1FF4E94400057D6E /* UIView+JM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JM.m"; sourceTree = "<group>"; };
+		CBE937F01FF4E94500057D6E /* UIView+JM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JM.h"; sourceTree = "<group>"; };
+		CBF1CE541FFB3E5600F295AF /* JMConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMConfig.h; sourceTree = "<group>"; };
+		CBF1CE551FFB3E5600F295AF /* JMConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMConfig.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5DD0821FF249BD0042B971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5DD09A1FF249BD0042B971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5DD0A51FF249BD0042B971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB5DD07C1FF249BD0042B971 = {
+			isa = PBXGroup;
+			children = (
+				CB5DD0871FF249BD0042B971 /* JMTabBarController */,
+				CB5DD0A01FF249BD0042B971 /* JMTabBarControllerTests */,
+				CB5DD0AB1FF249BD0042B971 /* JMTabBarControllerUITests */,
+				CB5DD0861FF249BD0042B971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5DD0861FF249BD0042B971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DD0851FF249BD0042B971 /* JMTabBarController.app */,
+				CB5DD09D1FF249BD0042B971 /* JMTabBarControllerTests.xctest */,
+				CB5DD0A81FF249BD0042B971 /* JMTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5DD0871FF249BD0042B971 /* JMTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DD0BA1FF24C110042B971 /* JMTabBarController */,
+				CB5DD0881FF249BD0042B971 /* AppDelegate.h */,
+				CB5DD0891FF249BD0042B971 /* AppDelegate.m */,
+				CB4BB6CD1FFE0E3C009CA46C /* ViewController.h */,
+				CB4BB6CE1FFE0E3C009CA46C /* ViewController.m */,
+				CB5DD08E1FF249BD0042B971 /* Main.storyboard */,
+				CB5DD0911FF249BD0042B971 /* Assets.xcassets */,
+				CB5DD0931FF249BD0042B971 /* LaunchScreen.storyboard */,
+				CB5DD0961FF249BD0042B971 /* Info.plist */,
+				CB5DD0971FF249BD0042B971 /* main.m */,
+			);
+			path = JMTabBarController;
+			sourceTree = "<group>";
+		};
+		CB5DD0A01FF249BD0042B971 /* JMTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DD0A11FF249BD0042B971 /* JMTabBarControllerTests.m */,
+				CB5DD0A31FF249BD0042B971 /* Info.plist */,
+			);
+			path = JMTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		CB5DD0AB1FF249BD0042B971 /* JMTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DD0AC1FF249BD0042B971 /* JMTabBarControllerUITests.m */,
+				CB5DD0AE1FF249BD0042B971 /* Info.plist */,
+			);
+			path = JMTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		CB5DD0BA1FF24C110042B971 /* JMTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CB5DD0C21FF255610042B971 /* JMUtility */,
+				CB5DD0C11FF24F970042B971 /* JMCategory */,
+				CB5DD0BB1FF24C220042B971 /* JMTabBarController.h */,
+				CB5DD0BC1FF24C220042B971 /* JMTabBarController.m */,
+				CB9CD6A31FF399D700702175 /* JMTabBar.h */,
+				CB9CD6A41FF399D700702175 /* JMTabBar.m */,
+				CBE937EC1FF4D4A700057D6E /* JMTabBarButton.h */,
+				CBE937ED1FF4D4A700057D6E /* JMTabBarButton.m */,
+				CBC1FB051FFBDD4200C61D98 /* JMBadgeValue.h */,
+				CBC1FB061FFBDD4200C61D98 /* JMBadgeValue.m */,
+				CBF1CE541FFB3E5600F295AF /* JMConfig.h */,
+				CBF1CE551FFB3E5600F295AF /* JMConfig.m */,
+			);
+			path = JMTabBarController;
+			sourceTree = "<group>";
+		};
+		CB5DD0C11FF24F970042B971 /* JMCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JMCategory;
+			sourceTree = "<group>";
+		};
+		CB5DD0C21FF255610042B971 /* JMUtility */ = {
+			isa = PBXGroup;
+			children = (
+				CB9CD6A61FF3A36300702175 /* UIColor+JM.h */,
+				CB9CD6A71FF3A36300702175 /* UIColor+JM.m */,
+				CBE937F01FF4E94500057D6E /* UIView+JM.h */,
+				CBE937EF1FF4E94400057D6E /* UIView+JM.m */,
+				CB82B0CD1FFCDD4F00D2625F /* CAAnimation+JMAnimation.h */,
+				CB82B0CE1FFCDD4F00D2625F /* CAAnimation+JMAnimation.m */,
+			);
+			path = JMUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5DD0841FF249BD0042B971 /* JMTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5DD0B11FF249BD0042B971 /* Build configuration list for PBXNativeTarget "JMTabBarController" */;
+			buildPhases = (
+				CB5DD0811FF249BD0042B971 /* Sources */,
+				CB5DD0821FF249BD0042B971 /* Frameworks */,
+				CB5DD0831FF249BD0042B971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMTabBarController;
+			productName = JMTabBarController;
+			productReference = CB5DD0851FF249BD0042B971 /* JMTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB5DD09C1FF249BD0042B971 /* JMTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5DD0B41FF249BD0042B971 /* Build configuration list for PBXNativeTarget "JMTabBarControllerTests" */;
+			buildPhases = (
+				CB5DD0991FF249BD0042B971 /* Sources */,
+				CB5DD09A1FF249BD0042B971 /* Frameworks */,
+				CB5DD09B1FF249BD0042B971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5DD09F1FF249BD0042B971 /* PBXTargetDependency */,
+			);
+			name = JMTabBarControllerTests;
+			productName = JMTabBarControllerTests;
+			productReference = CB5DD09D1FF249BD0042B971 /* JMTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB5DD0A71FF249BD0042B971 /* JMTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5DD0B71FF249BD0042B971 /* Build configuration list for PBXNativeTarget "JMTabBarControllerUITests" */;
+			buildPhases = (
+				CB5DD0A41FF249BD0042B971 /* Sources */,
+				CB5DD0A51FF249BD0042B971 /* Frameworks */,
+				CB5DD0A61FF249BD0042B971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5DD0AA1FF249BD0042B971 /* PBXTargetDependency */,
+			);
+			name = JMTabBarControllerUITests;
+			productName = JMTabBarControllerUITests;
+			productReference = CB5DD0A81FF249BD0042B971 /* JMTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5DD07D1FF249BD0042B971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = JM;
+				TargetAttributes = {
+					CB5DD0841FF249BD0042B971 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CB5DD09C1FF249BD0042B971 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB5DD0841FF249BD0042B971;
+					};
+					CB5DD0A71FF249BD0042B971 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB5DD0841FF249BD0042B971;
+					};
+				};
+			};
+			buildConfigurationList = CB5DD0801FF249BD0042B971 /* Build configuration list for PBXProject "JMTabBarController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5DD07C1FF249BD0042B971;
+			productRefGroup = CB5DD0861FF249BD0042B971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5DD0841FF249BD0042B971 /* JMTabBarController */,
+				CB5DD09C1FF249BD0042B971 /* JMTabBarControllerTests */,
+				CB5DD0A71FF249BD0042B971 /* JMTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5DD0831FF249BD0042B971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5DD0951FF249BD0042B971 /* LaunchScreen.storyboard in Resources */,
+				CB5DD0921FF249BD0042B971 /* Assets.xcassets in Resources */,
+				CB5DD0901FF249BD0042B971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5DD09B1FF249BD0042B971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5DD0A61FF249BD0042B971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5DD0811FF249BD0042B971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9CD6A81FF3A36300702175 /* UIColor+JM.m in Sources */,
+				CBE937F11FF4E94500057D6E /* UIView+JM.m in Sources */,
+				CBC1FB071FFBDD4200C61D98 /* JMBadgeValue.m in Sources */,
+				CB5DD0981FF249BD0042B971 /* main.m in Sources */,
+				CB5DD0BD1FF24C220042B971 /* JMTabBarController.m in Sources */,
+				CB4BB6CF1FFE0E3C009CA46C /* ViewController.m in Sources */,
+				CB5DD08A1FF249BD0042B971 /* AppDelegate.m in Sources */,
+				CBE937EE1FF4D4A700057D6E /* JMTabBarButton.m in Sources */,
+				CB82B0CF1FFCDD4F00D2625F /* CAAnimation+JMAnimation.m in Sources */,
+				CBF1CE561FFB3E5600F295AF /* JMConfig.m in Sources */,
+				CB9CD6A51FF399D700702175 /* JMTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5DD0991FF249BD0042B971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5DD0A21FF249BD0042B971 /* JMTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5DD0A41FF249BD0042B971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5DD0AD1FF249BD0042B971 /* JMTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB5DD09F1FF249BD0042B971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5DD0841FF249BD0042B971 /* JMTabBarController */;
+			targetProxy = CB5DD09E1FF249BD0042B971 /* PBXContainerItemProxy */;
+		};
+		CB5DD0AA1FF249BD0042B971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5DD0841FF249BD0042B971 /* JMTabBarController */;
+			targetProxy = CB5DD0A91FF249BD0042B971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB5DD08E1FF249BD0042B971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5DD08F1FF249BD0042B971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB5DD0931FF249BD0042B971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5DD0941FF249BD0042B971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB5DD0AF1FF249BD0042B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB5DD0B01FF249BD0042B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB5DD0B21FF249BD0042B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = JMTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ailaopo.JMTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CB5DD0B31FF249BD0042B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = JMTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ailaopo.JMTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CB5DD0B51FF249BD0042B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = JMTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ailaopo.JMTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMTabBarController.app/JMTabBarController";
+			};
+			name = Debug;
+		};
+		CB5DD0B61FF249BD0042B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = JMTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ailaopo.JMTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMTabBarController.app/JMTabBarController";
+			};
+			name = Release;
+		};
+		CB5DD0B81FF249BD0042B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = JMTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ailaopo.JMTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JMTabBarController;
+			};
+			name = Debug;
+		};
+		CB5DD0B91FF249BD0042B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = JMTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ailaopo.JMTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JMTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5DD0801FF249BD0042B971 /* Build configuration list for PBXProject "JMTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5DD0AF1FF249BD0042B971 /* Debug */,
+				CB5DD0B01FF249BD0042B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5DD0B11FF249BD0042B971 /* Build configuration list for PBXNativeTarget "JMTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5DD0B21FF249BD0042B971 /* Debug */,
+				CB5DD0B31FF249BD0042B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5DD0B41FF249BD0042B971 /* Build configuration list for PBXNativeTarget "JMTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5DD0B51FF249BD0042B971 /* Debug */,
+				CB5DD0B61FF249BD0042B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5DD0B71FF249BD0042B971 /* Build configuration list for PBXNativeTarget "JMTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5DD0B81FF249BD0042B971 /* Debug */,
+				CB5DD0B91FF249BD0042B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5DD07D1FF249BD0042B971 /* Project object */;
+}
