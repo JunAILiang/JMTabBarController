@@ -7,9 +7,7 @@
 * 完美支持横竖屏
 * 支持iPhone X
 
-![](https://github.com/JunAILiang/JMTabBarController/raw/master/JMTabBarController/gif/JMTabBar1.gif)  
-![](https://github.com/JunAILiang/JMTabBarController/raw/master/JMTabBarController/gif/JMTabBar2.gif)  
-![](https://github.com/JunAILiang/JMTabBarController/raw/master/JMTabBarController/gif/JMTabBar3.gif)  
+![](https://github.com/JunAILiang/JMTabBarController/raw/master/JMTabBarController/gif/JMTabBar1.gif)  ![](https://github.com/JunAILiang/JMTabBarController/raw/master/JMTabBarController/gif/JMTabBar2.gif)  ![](https://github.com/JunAILiang/JMTabBarController/raw/master/JMTabBarController/gif/JMTabBar3.gif)  
 ![](https://github.com/JunAILiang/JMTabBarController/raw/master/JMTabBarController/gif/JMTabBar4.gif)  
 ![](https://github.com/JunAILiang/JMTabBarController/raw/master/JMTabBarController/gif/JMTabBar5.gif)  
 
