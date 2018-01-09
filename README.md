@@ -7,6 +7,10 @@
 * 完美支持横竖屏
 * 支持iPhone X
 
+# 版本
+2018-1-9 -- 修复iPhone X底部间距问题
+2018-1-6 -- 第一个版本
+
 # 如何使用
 * 通过CocoaPods导入 `pod 'JMTabBarController', '~> 0.1'`
 * 手动导入 直接下载工程把 `JMTabBarController` 文件夹导入到自己工程中
