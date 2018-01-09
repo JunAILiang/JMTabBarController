@@ -25,6 +25,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
 
+    //初始化标题数组, 未选择图片数组, 选择图片数组, 控制器数组
     NSMutableArray *titleArr = [NSMutableArray arrayWithObjects:@"首页",@"热点",@"doki",@"个人中心", nil];
     NSMutableArray *imageNormalArr = [NSMutableArray arrayWithObjects:@"tab1_nor",@"tab2_nor",@"tab3_nor",@"tab4_nor", nil];
     NSMutableArray *imageSelectedArr = [NSMutableArray arrayWithObjects:@"tab1_sel",@"tab2_sel",@"tab3_sel",@"tab4_sel", nil];
@@ -42,7 +43,6 @@
             
             [controllersArr addObject:nav];
         }
-
     }
     
     //初始化配置信息
@@ -50,6 +50,7 @@
     
     JMTabBarController *tabBarVc = [[JMTabBarController alloc] initWithTabBarControllers:controllersArr NorImageArr:imageNormalArr SelImageArr:imageSelectedArr TitleArr:titleArr Config:config];
     
+
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.imageEdgeInsets = UIEdgeInsetsMake(-20, 0, 0, 0);
     [btn setImage:[UIImage imageNamed:@"add"] forState:UIControlStateNormal];

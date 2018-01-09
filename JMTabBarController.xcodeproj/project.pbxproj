@@ -19,6 +19,7 @@
 		CB82B0CF1FFCDD4F00D2625F /* CAAnimation+JMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB82B0CE1FFCDD4F00D2625F /* CAAnimation+JMAnimation.m */; };
 		CB9CD6A51FF399D700702175 /* JMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CD6A41FF399D700702175 /* JMTabBar.m */; };
 		CB9CD6A81FF3A36300702175 /* UIColor+JM.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CD6A71FF3A36300702175 /* UIColor+JM.m */; };
+		CBA664A9200344AC009F12D3 /* JMNavTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA664A8200344AC009F12D3 /* JMNavTestController.m */; };
 		CBC1FB071FFBDD4200C61D98 /* JMBadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1FB061FFBDD4200C61D98 /* JMBadgeValue.m */; };
 		CBE937EE1FF4D4A700057D6E /* JMTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE937ED1FF4D4A700057D6E /* JMTabBarButton.m */; };
 		CBE937F11FF4E94500057D6E /* UIView+JM.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE937EF1FF4E94400057D6E /* UIView+JM.m */; };
@@ -67,6 +68,8 @@
 		CB9CD6A41FF399D700702175 /* JMTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTabBar.m; sourceTree = "<group>"; };
 		CB9CD6A61FF3A36300702175 /* UIColor+JM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JM.h"; sourceTree = "<group>"; };
 		CB9CD6A71FF3A36300702175 /* UIColor+JM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JM.m"; sourceTree = "<group>"; };
+		CBA664A7200344AC009F12D3 /* JMNavTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNavTestController.h; sourceTree = "<group>"; };
+		CBA664A8200344AC009F12D3 /* JMNavTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNavTestController.m; sourceTree = "<group>"; };
 		CBC1FB051FFBDD4200C61D98 /* JMBadgeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMBadgeValue.h; sourceTree = "<group>"; };
 		CBC1FB061FFBDD4200C61D98 /* JMBadgeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMBadgeValue.m; sourceTree = "<group>"; };
 		CBE937EC1FF4D4A700057D6E /* JMTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMTabBarButton.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				CB5DD0891FF249BD0042B971 /* AppDelegate.m */,
 				CB4BB6CD1FFE0E3C009CA46C /* ViewController.h */,
 				CB4BB6CE1FFE0E3C009CA46C /* ViewController.m */,
+				CBA664A7200344AC009F12D3 /* JMNavTestController.h */,
+				CBA664A8200344AC009F12D3 /* JMNavTestController.m */,
 				CB5DD08E1FF249BD0042B971 /* Main.storyboard */,
 				CB5DD0911FF249BD0042B971 /* Assets.xcassets */,
 				CB5DD0931FF249BD0042B971 /* LaunchScreen.storyboard */,
@@ -161,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				CB5DD0C21FF255610042B971 /* JMUtility */,
-				CB5DD0C11FF24F970042B971 /* JMCategory */,
 				CB5DD0BB1FF24C220042B971 /* JMTabBarController.h */,
 				CB5DD0BC1FF24C220042B971 /* JMTabBarController.m */,
 				CB9CD6A31FF399D700702175 /* JMTabBar.h */,
@@ -174,13 +178,6 @@
 				CBF1CE551FFB3E5600F295AF /* JMConfig.m */,
 			);
 			path = JMTabBarController;
-			sourceTree = "<group>";
-		};
-		CB5DD0C11FF24F970042B971 /* JMCategory */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = JMCategory;
 			sourceTree = "<group>";
 		};
 		CB5DD0C21FF255610042B971 /* JMUtility */ = {
@@ -332,6 +329,7 @@
 				CB9CD6A81FF3A36300702175 /* UIColor+JM.m in Sources */,
 				CBE937F11FF4E94500057D6E /* UIView+JM.m in Sources */,
 				CBC1FB071FFBDD4200C61D98 /* JMBadgeValue.m in Sources */,
+				CBA664A9200344AC009F12D3 /* JMNavTestController.m in Sources */,
 				CB5DD0981FF249BD0042B971 /* main.m in Sources */,
 				CB5DD0BD1FF24C220042B971 /* JMTabBarController.m in Sources */,
 				CB4BB6CF1FFE0E3C009CA46C /* ViewController.m in Sources */,

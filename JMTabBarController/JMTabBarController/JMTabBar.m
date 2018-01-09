@@ -100,12 +100,15 @@
             [self topLineIsClearColor:NO];
         }
         
+        JMLog(@"%f",self.height);
+        
     }
     return self;
 }
 
 - (void)layoutSubviews {
     [super layoutSubviews];
+
     NSMutableArray *tempArr = [NSMutableArray array];
     for (UIView *tabBarButton in self.subviews) {
         if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
@@ -115,8 +118,6 @@
             [tempArr addObject:tabBarButton];
         }
     }
-    
-    JMLog(@"%@",tempArr);
     
     //进行排序
     for (int i = 0; i < tempArr.count; i++) {
@@ -129,7 +130,7 @@
     }
 
     CGFloat viewW = self.width / tempArr.count;
-    CGFloat viewH = self.height;
+    CGFloat viewH = 49;
     CGFloat viewY = 0;
     for (int i = 0; i < tempArr.count; i++) {
         CGFloat viewX = i * viewW;

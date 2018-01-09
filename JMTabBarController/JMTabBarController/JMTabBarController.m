@@ -20,7 +20,8 @@
     self.viewControllers = controllers;
     self.JM_TabBar = [[JMTabBar alloc] initWithFrame:self.tabBar.frame norImageArr:norImageArr SelImageArr:selImageArr TitleArr:titleArr Config:config];
     self.JM_TabBar.myDelegate = self;
-
+    
+    
     [self setValue:self.JM_TabBar forKeyPath:@"tabBar"];
 
     

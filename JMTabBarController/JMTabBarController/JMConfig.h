@@ -31,6 +31,7 @@
 //随机颜色+RGB颜色+RBGA颜色+16进制颜色
 #define kRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
 
+#define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
 
 #import <Foundation/Foundation.h>
 #import "UIColor+JM.h"
