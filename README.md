@@ -12,7 +12,7 @@
 2018-1-6 -- 第一个版本
 
 # 如何使用
-* 通过CocoaPods导入 `pod 'JMTabBarController', '~> 0.1'`
+* 通过CocoaPods导入 `pod 'JMTabBarController', '~> 0.2'`
 * 手动导入 直接下载工程把 `JMTabBarController` 文件夹导入到自己工程中
 
 # 演示
