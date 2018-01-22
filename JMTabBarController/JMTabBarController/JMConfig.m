@@ -63,6 +63,9 @@ static id _instance = nil;
     _imageSize = CGSizeMake(28, 28);
     _badgeTextColor = [UIColor colorWithHexString:@"#FFFFFF"];
     _badgeBackgroundColor = [UIColor colorWithHexString:@"#FF4040"];
+    _titleFont = 12.f;
+    _titleOffset = 2.f;
+    _imageOffset = 2.f;
 }
 
 - (void)setBadgeSize:(CGSize)badgeSize {

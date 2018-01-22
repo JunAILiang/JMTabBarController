@@ -38,7 +38,7 @@
     
         self.title = [[UILabel alloc] init];
         self.title.textAlignment = NSTextAlignmentCenter;
-        self.title.font = [UIFont systemFontOfSize:10.f];
+        self.title.font = [UIFont systemFontOfSize:[[JMConfig config] titleFont]];
         [self addSubview:self.title];
         
         self.badgeValue = [[JMBadgeValue alloc] init];
@@ -51,7 +51,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     CGSize imageSize = [[JMConfig config] imageSize];
-    CGFloat imageY = 5;
+    CGFloat imageY = [[JMConfig config] imageOffset];
     if ([[JMConfig config] typeLayout] == JMConfigTypeLayoutImage) {
         imageY = self.height * 0.5 - imageSize.height * 0.5;
     }
@@ -61,7 +61,7 @@
     CGFloat titleX = 4;
     CGFloat titleH = 14.f;
     CGFloat titleW = self.width - 8;
-    CGFloat titleY = self.height - 14.f;
+    CGFloat titleY = self.height - titleH - [[JMConfig config] titleOffset];
     self.title.frame = CGRectMake(titleX, titleY, titleW, titleH);
     
     CGFloat badgeX = CGRectGetMaxX(self.imageView.frame) - 6;

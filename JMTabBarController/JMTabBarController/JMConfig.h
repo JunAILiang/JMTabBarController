@@ -85,6 +85,12 @@ typedef void (^JMConfigCustomBtnBlock) (UIButton *btn, NSInteger index);
 @property (nonatomic, strong) UIColor *selTitleColor;
 /** 图片的size (默认 28*28) */
 @property (nonatomic, assign) CGSize imageSize;
+/** 标题文字大小 (默认 12.f) */
+@property (nonatomic, assign) CGFloat titleFont;
+/** 标题的偏移值 (标题距离底部的距离 默认 2.f) */
+@property (nonatomic, assign) CGFloat titleOffset;
+/** 图片的偏移值 (图片距离顶部的距离 默认 2.f) */
+@property (nonatomic, assign) CGFloat imageOffset;
 
 /** tabBar */
 @property (nonatomic, assign) JMConfigTabBarAnimType tabBarAnimType;
