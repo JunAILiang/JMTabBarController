@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JMTabBarController"
-  s.version      = "0.3"
+  s.version      = "0.4"
   s.summary      = "超强自定义tabBar"
 
   s.description  = <<-DESC
